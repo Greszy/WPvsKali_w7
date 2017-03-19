@@ -25,7 +25,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.1.1
     - Fixed in version: 4.2.1
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: <img src='Project6Demo2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
   1. Click on a comment
   2. In the comment text area inject a script like <script>alert('XSS!');</script>. 
