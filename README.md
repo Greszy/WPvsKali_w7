@@ -30,8 +30,8 @@ Time spent: **10** hours spent in total
   1. Click on a comment
   2. In the comment text area inject a script like <script>alert('XSS!');</script>. 
   3. The script will be triggered once you view the comment. 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - [x] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.1.1/src/wp-includes/wp-db.php)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
