@@ -20,13 +20,16 @@ Time spent: **10** hours spent in total
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/kses.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/shortcodes.php)
-1. (Required) Vulnerability Name or ID
+1. (Required) Unauthenticated Stored Cross-Site Scripting
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.1.1
+    - Fixed in version: 4.2.1
+  - [x] GIF Walkthrough: 
+  - [x] Steps to recreate: 
+  1. Click on a comment
+  2. In the comment text area inject a script like <script>alert('XSS!');</script>. 
+  3. The script will be triggered once you view the comment. 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
