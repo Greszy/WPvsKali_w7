@@ -11,7 +11,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
     - Fixed in version: 4.2.3
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: <img src='Project6Demo1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
      1. Press edit on a created post. 
      2. Switch to text mode. 
