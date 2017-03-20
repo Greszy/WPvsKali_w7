@@ -32,15 +32,18 @@ Time spent: **10** hours spent in total
   3. The script will be triggered once you view the comment. 
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.1.1/src/wp-includes/wp-db.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+1. (Required) 
+  - [x] Summary: Authenticated Shortcode Tags Cross-Site Scripting
+    - Vulnerability types: XSS
+    - Tested in version: 4.2.2
+    - Fixed in version: 4.2.5
+  - [x] GIF Walkthrough: <img src='Project6Demo3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+  - [x] Steps to recreate: 
+     1. Create a short code with html inside it as a value that will pass the KESS validation. You can use this:
+     <p>TEST!!!<figure style="width: 1px;" class="wp-caption alignnone"><figcaption class="wp-caption-text"><a href="</figcaption></figure></a><a>xxxxxx</a></p>
+     2. Type the short code into a post.  
+  - [x] Affected source code:
+    - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/media.php)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
