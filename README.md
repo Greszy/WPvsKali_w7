@@ -13,10 +13,10 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.3
   - [x] GIF Walkthrough: <img src='Project6Demo1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
-     1. Press edit on a created post. 
-     2. Switch to text mode. 
-     3. Type in an html script like for example: <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
-     4. Save the changes. Go back to your website and mouse over the created link. The added call to a javascript function should appear. 
+   1. Press edit on a created post. 
+   2. Switch to text mode. 
+   3. Type in an html script like for example: <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
+   4. Save the changes. Go back to your website and mouse over the created link. The added call to a javascript function should appear. 
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/kses.php)
     - [Link 2](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/shortcodes.php)
@@ -39,8 +39,8 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.5
   - [x] GIF Walkthrough: <img src='Project6Demo3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
-     1. Create a short code with html inside it as a value that will pass the KSES validation. 
-     2. Type the short code into a post.  
+   1. Create a short code with html inside it as a value that will pass the KSES validation. 
+   2. Type the short code into a post.  
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/media.php)
 1. (Optional) Vulnerability Name or ID
