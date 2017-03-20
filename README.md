@@ -39,8 +39,7 @@ Time spent: **10** hours spent in total
     - Fixed in version: 4.2.5
   - [x] GIF Walkthrough: <img src='Project6Demo3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [x] Steps to recreate: 
-     1. Create a short code with html inside it as a value that will pass the KESS validation. You can use this:
-     <p>TEST!!!<figure style="width: 1px;" class="wp-caption alignnone"><figcaption class="wp-caption-text"><a href="</figcaption></figure></a><a>xxxxxx</a></p>
+     1. Create a short code with html inside it as a value that will pass the KSES validation. 
      2. Type the short code into a post.  
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/media.php)
@@ -65,7 +64,7 @@ Time spent: **10** hours spent in total
 
 ## Assets
 
-List any additional assets, such as scripts or files
+
 
 ## Resources
 
@@ -76,11 +75,11 @@ GIFs created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Working with tools like Kali and Docker was a new lesson for me. Reviewing WP documentation and code was also a challenge. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Gregory Szymanski]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
